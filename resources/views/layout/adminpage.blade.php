@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
+    @vite(['resources/css/app.css','resources/js/app.js'])
+    <link rel="icon" href="{{ asset("logo/logo IM-09.png") }}">
     <title>Admin Page/title>
 </head>
 <body>
+    @include('partials.header')
 
+    @yield('content')
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+    @include('partials.footer')
 </body>
 </html>

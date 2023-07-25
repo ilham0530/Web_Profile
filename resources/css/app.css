@@ -2,9 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-
-}
 @layer utilities{
-
+    #logo-login{
+        flex-direction: column;
+        position: relative;
+        left: 6px;
+    }
+    #foto-profile1{
+        width: 500px;
+        height: 500px;
+    }
+    body{
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    nav{
+        font-family: 'Poppins', sans-serif;
+    }
+    footer{
+        font-family: 'Poppins', sans-serif;
+    }
 }
