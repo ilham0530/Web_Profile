@@ -40,3 +40,6 @@ themeToggleBtn.addEventListener('click', function() {
     }
 
 });
+
+// end dark mode
+

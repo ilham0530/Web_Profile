@@ -11,7 +11,7 @@
     {{-- css style --}}
     @vite(['resources/css/app.css','resources/js/app.js'])
     <link rel="icon" href="{{ asset("logo/logo IM-09.png") }}">
-    <title>Ilham Maulana</title>
+    <title>Web | Profile</title>
 </head>
 <body>
     @include('partials.header')

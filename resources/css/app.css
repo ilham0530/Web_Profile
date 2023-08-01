@@ -8,9 +8,11 @@
         position: relative;
         left: 6px;
     }
-    #foto-profile1{
-        width: 500px;
-        height: 500px;
+    #card-hover{
+        transition: transform 0.5s;
+    }
+    #card-hover:hover{
+        transform: scale(1.1);
     }
     body{
         font-family: 'Josefin Sans', sans-serif;
