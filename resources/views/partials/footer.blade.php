@@ -11,7 +11,7 @@
     </ul>
 @endauth
 
-<footer id="footer" class="bg-white dark:bg-gray-900 ">
+<footer id="footer" class="bg-white dark:bg-gray-900 px-5">
     <hr class="border-gray-300 sm:mx-auto dark:border-gray-900" />
     <div class="w-full max-w-screen-xl p-4 mx-auto lg:py-8">
         <div class="mr-10 md:flex md:justify-between">
@@ -44,16 +44,16 @@
 
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Send Message</h2>
-                    <form action="submit">
+                    <form  action="https://formspree.io/f/xjvqgagp" method="POST">
                         <div class="w-64 md:grid-cols-2">
+                            <label>
+                                <input type="text" name="nama" id="first_name" class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Nama" required>
+                            </label>
+                            <label>
+                                <textarea name="message" id="message" class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" cols="10" rows="2" placeholder="Pesan..." required></textarea>
+                            </label>
                             <div>
-                                <input type="text" id="first_name" class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Nama" required>
-                            </div>
-                            <div>
-                                <textarea name="pesan" id="message" class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" cols="10" rows="2" placeholder="Pesan..."></textarea>
-                            </div>
-                            <div>
-                                <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Kirim</button>
+                                <button type="submit" class="shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Kirim</button>
                             </div>
                         </div>
                     </form>
@@ -68,7 +68,7 @@
 
                 {{-- button darkmode --}}
                 <div>
-                    <button type="button" class="mt-2 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2 "><a href="{{ route('login-page') }}" class="font-medium {{ ($title === 'Contact')? 'nav-text-on' : 'nav-text-off md:dark:hover:bg-transparent' }}">admin</a></button>
+                    <button type="button" class=" mt-2 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2 "><a href="{{ route('login-page') }}" class="font-medium {{ ($title === 'Contact')? 'nav-text-on' : 'nav-text-off md:dark:hover:bg-transparent' }}">admin</a></button>
                 </div>
                 <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
                     <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>

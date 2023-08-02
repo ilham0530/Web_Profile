@@ -11,10 +11,12 @@ module.exports = {
     theme: {
       extend: {},
       'white':'#ffffff',
+      screen:{
+      }
     },
     plugins: [
         require('flowbite/plugin')
     ],
+}
 
-  }
 

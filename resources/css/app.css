@@ -23,4 +23,17 @@
     footer{
         font-family: 'Poppins', sans-serif;
     }
+    .mx-w-c{
+        max-width: 12rem;
+    }
+    .my-h-c{
+        max-height: 12rem;;
+    }
+    .mx-c{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .mx-w-w{
+        max-width: 13rem;
+    }
 }

@@ -43,3 +43,8 @@ themeToggleBtn.addEventListener('click', function() {
 
 // end dark mode
 
+window.onbeforeunload = () => {
+    for(const form of document.getElementsByTagName('form')) {
+      form.reset();
+    }
+}
