@@ -24,16 +24,32 @@
         font-family: 'Poppins', sans-serif;
     }
     .mx-w-c{
-        max-width: 12rem;
+        max-width: 15rem;
     }
     .my-h-c{
-        max-height: 12rem;;
+        max-height: 15rem;;
     }
     .mx-c{
-        margin-left: 35px;
-        margin-right: 35px;
+        margin-left: 13px;
+        margin-right: 13px;
     }
     .mx-w-w{
         max-width: 13rem;
+    }
+    .text-s{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .h-p{
+        height: 375px;
+    }
+    .h-p-sm{
+        height: 460px;
+    }
+    .h-p-md{
+        height: 445px ;
+    }
+    .h-b{
+        height: 345px;
     }
 }
