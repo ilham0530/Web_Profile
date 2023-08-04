@@ -18,7 +18,7 @@
     </div>
     @endif
 
-    <div class="flex flex-col items-center justify-center px-6 py-6 mx-auto md:h-screen lg:py-0 dark:bg-gray-800 " >
+    <div data-aos="zoom-out-up" class="flex flex-col items-center justify-center px-6 py-6 mx-auto md:h-screen lg:py-0 dark:bg-gray-800 " >
         <div class="w-full bg-white rounded-lg shadow-lg shadow-gray-900 dark:shadow-yellow-100 dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-600">
             <div class="p-6 space-y-4 md:space-y-6 sm:p-8 dark:bg-gray-900 dark:border-gray-600"">
                 <a href="#" id="logo-login" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">

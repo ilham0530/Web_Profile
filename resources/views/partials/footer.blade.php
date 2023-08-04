@@ -11,7 +11,7 @@
     </ul>
 @endauth
 
-<footer id="footer" class="bg-white dark:bg-gray-900 px-5">
+<footer data-aos="zoom-out-up" id="footer" class="bg-white dark:bg-gray-900 px-5">
     <hr class="border-gray-300 sm:mx-auto dark:border-gray-900" />
     <div class="w-full max-w-screen-xl p-4 mx-auto lg:py-8">
         <div class="mr-10 md:flex md:justify-between">
