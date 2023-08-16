@@ -3,7 +3,7 @@
 -   Clone this repository
 
 ```sh
-git clone https://github.com/biillskiii/webSS.git
+git clone https://github.com/ilham0530/Web_Profile.git
 # make sure you are in the folder
 cd absensi-app
 ```
