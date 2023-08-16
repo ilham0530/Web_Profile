@@ -5,7 +5,7 @@
 ```sh
 git clone https://github.com/ilham0530/Web_Profile.git
 # make sure you are in the folder
-cd absensi-app
+cd [folder yang sudah di clone]
 ```
 
 -   Install semua package
